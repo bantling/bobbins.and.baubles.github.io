@@ -1,0 +1,226 @@
+
+
+body {
+	 font-family: 'Lexend Deca', sans-serif;
+	 background-color: #F5EEF8;
+}
+
+wrapper {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+
+nav {
+	background: #7B7D7D;
+}
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+nav a {
+	
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 16px;
+}
+
+nav a:hover {
+	color: #fff;
+	background-color: #555;
+	text-decoration: none;
+}
+
+/* h2 Headings */
+
+h2 {
+	float: center;
+	font-size: 28px;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+.container .bxslider {
+	margin-top: 50px;
+	padding: 0px 9px;
+	
+}
+/* Image */
+.card-img img {
+	display: block;
+	margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  border-radius: 15px 50px 30px;
+}
+
+
+/* About */
+
+.header-title h2 {
+	color: #FF5733;
+	margin-top: 30px;
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0 12px;
+}
+
+.header-para p {
+	font-size: 17px;
+	font-weight: 300;
+	text-align: center;
+	padding: 0 12px;
+	margin-bottom: 80px;
+}
+
+
+
+/* Services */
+
+
+
+.service-item h3 {
+	margin-top: 30px;
+	font-size: 25px;
+	margin-bottom: 25px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 300;
+}
+
+
+.service-item p {
+	text-align: center;
+	font-size: 17px;
+	font-weight: 300;
+	margin-bottom: 30px;
+	padding: 0 12px;
+	margin-bottom: 80px;
+	
+	
+}
+
+/* BxSlider */
+
+.item img {
+	
+	border-radius: 16px;
+}
+
+
+
+
+/* Contact */
+
+
+ul.contact-list    {
+float: center;
+list-style-type: none;
+font-size: 33px;
+text-align: center;
+}
+ul.contact-list  h3 li {
+float: center;
+list-style-type: none;
+font-size: 20px;
+text-align: center;
+}
+
+ul.contact-list li {
+float: center;
+list-style-type: none;
+font-size: 14px;
+text-align: center;
+}
+
+
+ul.contact-list-3 h3 li {
+list-style-type: none;
+text-decoration: none;
+font-size: 20px;
+text-align: center;
+
+}
+
+
+
+
+
+
+/* ========= Footer ============= */
+
+#button {
+    position: fixed;
+    bottom: -1px;
+    right: 10px;
+	margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+	display: inline-block;
+	width: 35px;
+	height: 30px;
+	background-color: #fff;
+	transition: background-color: .3s, opacity .5s, visibility .5s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1000;
+	 
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 30px;
+  color: #FF5733;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+.footer {
+    background-color: #7B7D7D;
+    padding-bottom: 25px;
+    padding-top: 25px;
+
+}
+
+#copyright {
+    width: 80%;
+	
+}
+#copyright p {
+    float: left;
+	
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
+    text-transform: uppercase;
+	
+	
+}
+
+
+
+

@@ -1,0 +1,58 @@
+﻿/* flex */
+
+@media screen and (min-width: 768px){
+	
+	nav ul {
+		
+		display: flex;
+		justify-content: flex-start;
+		
+		
+		
+	}
+	
+	nav li {
+		flex: 1 1 0;
+	}
+	
+}
+
+ /* Small Devices */
+@media only screen and (max-width: 767px) {
+ 
+
+.header-title h2 {
+	font-size: 28px;
+	text-align: center;
+	
+}
+
+.header-para p {
+	font-size: 15px;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+ .service-item h2 {
+	 font-size: 20px;
+ }
+#copyright p {
+	
+	font-size: 11px;
+}
+
+.contact-title h2 {
+	font-size: 25px;
+	font-weight: bold;
+	float: center;
+}
+
+ul.contact-list  h3 li {
+	font-size: 18px;
+}
+
+
+}
