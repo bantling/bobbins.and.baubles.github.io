@@ -1,6 +1,6 @@
 ﻿
 /*====================================================
-                        SERVICES
+                        
 ====================================================*/
 $(function () {
 
@@ -8,9 +8,78 @@ $(function () {
     new WOW().init();
 });
 
+/*====================================================
+                        NAVIGATION
+====================================================*/
 
 
-/* Show and hide menu */
+// Smooth scrolling
+$(".navbar a").click(function(){
+	$("body,html").animate({
+		scrollTop:$("#" + $(this).data('value')).offset().top
+	},1000)
+})
+
+// Close mobile menu on click
+
+$(function(){
+    
+    $(".navbar-collapse ul li a").on("click touch", function(){
+       
+        $(".navbar-toggler").click();
+    });
+});
+
+
+
+
+// Add bx slider to screens
+$(document).ready(function() {
+    
+    $('.bxslider').bxSlider({
+        
+        slideWidth: 372.5,
+        auto: true,
+        minSlides: 1, 
+        maxSlides: 4, 
+        slideMargin: 30
+    });
+    
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Show/Hide transparent black navigation
 $(function () {
