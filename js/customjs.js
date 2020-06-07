@@ -2,11 +2,14 @@
 /*====================================================
                         
 ====================================================*/
-$(function () {
-
-    // animate on scroll
+$(document).ready(function() {
+    
+    'use strict';
+   
     new WOW().init();
+    
 });
+
 
 /*====================================================
                         NAVIGATION
@@ -31,56 +34,6 @@ $(function(){
 });
 
 
-
-
-// Add bx slider to screens
-$(document).ready(function() {
-    
-    $('.bxslider').bxSlider({
-        
-        slideWidth: 372.5,
-        auto: true,
-        minSlides: 1, 
-        maxSlides: 4, 
-        slideMargin: 30
-    });
-    
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Show/Hide transparent black navigation
 $(function () {
 
@@ -98,12 +51,6 @@ $(function () {
         }
     });
 });
-
-
-
-
-
-
 
 
 
@@ -143,35 +90,21 @@ $(document).ready(function() {
 });
 
 
-
-
-// Images
-
-
 // Add bx slider to screens
+
 $(document).ready(function() {
     
     $('.bxslider').bxSlider({
         
-        slideWidth: 282.5,
+        slideWidth: 292.5,
         auto: true,
         minSlides: 1, 
-        maxSlides: 4, 
-        slideMargin: 30
+        maxSlides: 3, 
+        slideMargin: 50
     });
     
 });
 
-
-
-// Add animation/ Initialize Woo
-$(document).ready(function() {
-    
-    'use strict';
-   
-    new WOW().init();
-    
-});
 
 
 // back-to-top button
