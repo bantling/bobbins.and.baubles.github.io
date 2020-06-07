@@ -19,6 +19,16 @@
     .nav-wrapper {
         padding: 0;
     }
+	
+	.contact_info ul h2 li {
+		
+		text-align: center;
+	}
+	
+	.contact_info ul li,
+    .contact_info ul a,
+     .contact_info ul i {
+	text-align: center;
 }
 
 
@@ -41,37 +51,45 @@
 	
 	/* Home */
     #home-heading h2 {
-        font-size: 45px;
+		font-size: 55px;
 		text-align: center;
 		
     }
 	
 	#home-heading p {
-		font-size: 35px;
+		
 		text-align: center;
 	}	
 
 /* About */
 	.header_text h2 {
 		text-align: center;
-		font-size: 45px;
+		
 	}
 	
 	.header_para p {
 		text-align: center;
-		font-size: 25px;
+		
 	}
 	
-	.contact_info ul li {
-		text-align: left;
-	    font-size: 14px;
+	.contact_info ul h2 li {
+		
+		text-align: center;
 	}
+		.contact_info ul li,
+    .contact_info ul a,
+     .contact_info ul i {
+	text-align: center;
+}
+
+
  /* Footer */
  
     #copyright {
 		float: center;
         text-align: center;
     }
+	
 }
 
  /* Small Devices */
@@ -96,27 +114,38 @@
    /* Home */
     #home-heading h2 {
 		
-        font-size: 45px;
+		font-size: 55px;
 		text-align: center;
     }
 	
 	#home-heading p {
 	
-		font-size: 28px;
+	
 		text-align: center;
 	}
 	
 	.header_text h2 {
+		
 		text-align: center;
-		font-size: 45px;
+		
 	}
 	
 	.header_para p {
 		text-align: center;
-		font-size: 25px;
+	
 	}
 	
-    
+    .contact_info ul h2 li {
+		
+		text-align: center;
+	}
+	
+	.contact_info ul li,
+    .contact_info ul a,
+     .contact_info ul i {
+	text-align: center;
+   }
+
  }
  
  /* Extra Small Devices (Portrait Phones & Smaller devices) */
@@ -126,7 +155,7 @@
     /* Mobile menu */
     .navbar {
         background: rgba(0, 0, 0, .7);
-        padding: 30px 75px;
+        padding: 30px 55px;
     }
    
     .nav-wrapper {
@@ -139,36 +168,38 @@
 	
    /* Home */
     #home-heading h2 {
-		
-        font-size: 35px;
+
+       font-size: 45px;
 		text-align: center;
     }
 	
 	#home-heading p {
 	
-		font-size: 18px;
 		text-align: center;
 	}
 	
 	.header_text h2 {
 		text-align: center;
-		font-size: 35px;
+		
 	}
 	
 	.header_para p {
 		text-align: center;
-		font-size: 15px;
-	}
-	   
-    .contact_info ul  h2 li {
-		float: left;
-	    font-size: 18px;
+		
 	}
 	
-	.contact_info ul li{
-		
-	    font-size: 15px;
-		
+	.contact_info ul h2 li {
+		font-size: 22px;
+		text-align: center;
 	}
+		.contact_info ul li,
+    .contact_info ul a,
+     .contact_info ul i
+	 {
+		 font-size: 16px;
+	text-align: center;
+}
+	   
+     
 	   
 }

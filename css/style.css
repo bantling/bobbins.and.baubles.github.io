@@ -7,20 +7,7 @@ body {
     font-family: "Roboto Condensed", sans-serif;
 }
 
-p {
-    color: #64707b;
-    font-size: 16px;
-    font-weight: 300;
-}
 
-h1 {
-    color: #41464b;
-    text-transform: uppercase;
-}
-h2 {
-    color: #41464b;
-    text-transform: uppercase;
-}
 
 
 
@@ -59,18 +46,19 @@ h2 {
 
 #home-heading h2 {
     color: #212121;
-    font-size: 65px;
+    font-size: 85px;
     font-weight: bold;
    text-transform: uppercase;
-    margin: 20px 0 20px 0;
+    margin: 10px 10px;
 }
 
 #home-heading p {
 	color: #212121;
 	font-size: 45px;
-	font-weight: bold;
-	text-transform: uppercase;
-	margin: 30px  50px;
+	font-weight: 600;
+	text-transform: lowercase;
+	margin-bottom: 6em;
+	
 	
 }
 
@@ -119,17 +107,17 @@ h2 {
 
 
 .navbar {
-    padding: 18px 0;
+    padding: 10px 0;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
 .top-nav {
     background: rgba(0, 0, 0, 0.7);
-    padding: 13px 0;
+    padding: 10px 0;
 }
 
 .nav-wrapper {
-    padding: 0 85px;
+    padding: 0 65px;
 }
 
 .navbar-nav {
@@ -205,7 +193,7 @@ h2 {
 	font-size: 25px;
 	font-weight: 500;
 	text-align: center;
-	color: #FFD700	;
+		color: #FFD700	;
 }
 
 /*==== Services =====*/
@@ -317,30 +305,32 @@ h2 {
 .contact {
 	background-color:#FFF9C4; 
 	border: 2px solid #FFD700;
-        margin: 9em 0;
+     margin: 9em 0;
 	padding: 9em 0;
 	 position: relative;
 	
 } 
-.contact_info ul  h2 li {
+.contact_info ul h2 li {
 	list-style-type: none;
 	color: #212121;
 	text-align: center;
 	font-size: 35px;
 	font-weight: 600;
-	margin-right: 3em;
+	
 	
 }
-
-.contact_info ul li  {
+	
+.contact_info ul li,
+.contact_info ul a,
+.contact_info ul i
+{
 	list-style-type: none;
-	text-align: left;
 	font-size: 22px;
 	font-weight: 400;
-	color: #212121;	
+	color: #212121;
+	text-align: left;
+	margin: 3px 2px 6px 2px;
 }
-	
-
 
 
 /* ========= Footer Scroll Arrow ============= */
