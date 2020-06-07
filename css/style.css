@@ -317,9 +317,9 @@ h2 {
 .contact {
 	background-color:#F57F17 ;
 	border: 2px solid #FFD700;
-     margin: 8em 0;
+        margin: 8em 0;
 	padding: 3em 0;
-	 position: relative;
+	position: relative;
 	
 } 
 .contact_info ul  h2 li {
@@ -337,7 +337,7 @@ h2 {
 	text-align: left;
 	font-size: 22px;
 	font-weight: 400;
-	color: #10828C;	
+	color: #212121;	
 }
 	
 
