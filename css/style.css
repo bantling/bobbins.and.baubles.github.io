@@ -24,9 +24,7 @@ body {
     height: 100%;
 	width: 100%;
     background-image: url("../images/bb1.png");
-	margin: 3em 0;
-	padding: 6em 0;
-	position: relative;
+	
 	
 }
 
@@ -46,10 +44,11 @@ body {
 
 #home-heading h2 {
     color: #212121;
-    font-size: 85px;
+    font-size: 75px;
     font-weight: bold;
-   text-transform: uppercase;
-    margin: 10px 10px;
+    text-transform: uppercase;
+	text-align: center;
+   
 }
 
 #home-heading p {
@@ -57,7 +56,8 @@ body {
 	font-size: 45px;
 	font-weight: 600;
 	text-transform: lowercase;
-	margin-bottom: 6em;
+	text-align: center;
+
 	
 	
 }
@@ -113,7 +113,7 @@ body {
 }
 .top-nav {
     background: rgba(0, 0, 0, 0.7);
-    padding: 10px 0;
+    padding: 16px 0;
 }
 
 .nav-wrapper {
@@ -176,8 +176,8 @@ body {
 .about {
 	background-color: #FFF9C4;
 	border: 1px solid #F57F17;
-	margin: 9em 0;
-	padding: 9em 0;
+	margin: 10em 0;
+	padding: 12em 0;
 	position: relative;
 }
 
@@ -199,8 +199,8 @@ body {
 /*==== Services =====*/
 
 .services {
-	margin: 4em 0;
-	padding: 5em 0;
+	margin: 10em 0;
+	padding: 8em 0;
 	position: relative;
 }
 
@@ -245,8 +245,8 @@ body {
 	
 /* ===== Gallery My Projects ===== */
 .gallery {
-	margin: 3em 0;
-	padding: 4em 0;
+	margin: 10em 0;
+	padding: 8em 0;
 	position: relative;
 }
 
@@ -305,8 +305,8 @@ body {
 .contact {
 	background-color:#FFF9C4; 
 	border: 2px solid #FFD700;
-     margin: 9em 0;
-	padding: 9em 0;
+     margin: 10em 0;
+	 padding: 8em 0;
 	 position: relative;
 	
 } 
