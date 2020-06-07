@@ -1,68 +1,36 @@
-﻿
-/* Large Devices (Desktops & Laptops) */
+ /* Extra Small Devices (Portrait Phones & Smaller devices) */
 
-@media (min-width: 1200px) {
-    /* OK */
-}
-
-
-
-/* Medium Devices (Landscape Tablets & Medium Desktops) */
-
-@media (min-width: 992px) and (max-width: 1199px) {
-    /* Mobile menu */
+@media only screen and (max-width: 480px) {
+    
+ /* Mobile menu */
     .navbar {
-        background: rgba(0, 0, 0, .7);
-       padding: 40px 75px;
-    }
-   
-    .nav-wrapper {
-        padding: 0;
-    }
-	
-	.contact_info ul h2 li {
 		
-		text-align: center;
-	}
-	
-	.contact_info ul li,
-    .contact_info ul a,
-     .contact_info ul i {
-	text-align: center;
-}
-
-
-/* Small Devices (Portrait Tablets & Small Desktops) */
-
-@media (min-width: 768px) and (max-width: 991px) {
-	
-    .navbar {
         background: rgba(0, 0, 0, .7);
-        padding: 10px 0;
+       
     }
    
     .nav-wrapper {
         padding: 0;
     }
 	 .navbar-nav li a{
-		margin: 2px 8px;
+		
         border-bottom: 1px solid #fff;
     }
 	
-	/* Home */
+/* Home */
     #home-heading h2 {
-		font-size: 55px;
+
+        font-size: 35px;
 		text-align: center;
-		
     }
 	
 	#home-heading p {
-		
+	
 		text-align: center;
-	}	
-
-/* About */
+	}
+	
 	.header_text h2 {
+		font-size: 35px;
 		text-align: center;
 		
 	}
@@ -73,48 +41,46 @@
 	}
 	
 	.contact_info ul h2 li {
-		
+		font-size: 22px;
 		text-align: center;
 	}
-		.contact_info ul li,
-    .contact_info ul a,
-     .contact_info ul i {
-	text-align: center;
-}
-
-
- /* Footer */
- 
-    #copyright {
-		float: center;
-        text-align: center;
-    }
 	
+	.contact_info ul li,
+    .contact_info ul a,
+    .contact_info ul i {
+		font-size: 16px;
+	    text-align: center;
+   }
+	   
+        
 }
+
+
+
 
  /* Small Devices */
  
 @media only screen and (max-width: 767px) {
  
  
-    /* Mobile menu */
+ /* Mobile menu */
     .navbar {
         background: rgba(0, 0, 0, .7);
-        padding: 40px 75px;
+        
     }
    
     .nav-wrapper {
         padding: 0;
     }
 	 .navbar-nav li a{
-		margin: 2px 8px;
+		
         border-bottom: 1px solid #fff;
     }
 	
-   /* Home */
+/* Home */
     #home-heading h2 {
 		
-		font-size: 55px;
+		font-size: 35px;
 		text-align: center;
     }
 	
@@ -125,7 +91,7 @@
 	}
 	
 	.header_text h2 {
-		
+		font-size: 35px;
 		text-align: center;
 		
 	}
@@ -142,43 +108,46 @@
 	
 	.contact_info ul li,
     .contact_info ul a,
-     .contact_info ul i {
-	text-align: center;
+    .contact_info ul i {
+	    
+		text-align: center;
    }
 
  }
+ ===========================
  
- /* Extra Small Devices (Portrait Phones & Smaller devices) */
+ /* Small Devices (Portrait Tablets & Small Desktops) */
 
-@media only screen and (max-width: 480px) {
-    
-    /* Mobile menu */
+@media (min-width: 768px) and (max-width: 991px) {
+	
     .navbar {
         background: rgba(0, 0, 0, .7);
-        padding: 30px 55px;
+        
     }
    
     .nav-wrapper {
         padding: 0;
     }
 	 .navbar-nav li a{
-		margin: 2px 8px;
+		
         border-bottom: 1px solid #fff;
     }
 	
-   /* Home */
+/* Home */
     #home-heading h2 {
-
-       font-size: 45px;
+		font-size: 35px;
 		text-align: center;
+		
     }
 	
 	#home-heading p {
-	
+		
 		text-align: center;
-	}
-	
+	}	
+
+/* About */
 	.header_text h2 {
+		font-size: 35px;
 		text-align: center;
 		
 	}
@@ -189,17 +158,58 @@
 	}
 	
 	.contact_info ul h2 li {
-		font-size: 22px;
+		
 		text-align: center;
 	}
-		.contact_info ul li,
+	
+	.contact_info ul li,
     .contact_info ul a,
-     .contact_info ul i
-	 {
-		 font-size: 16px;
+    .contact_info ul i {
 	text-align: center;
 }
-	   
-     
-	   
+
+
+ /* Footer */
+ 
+    #copyright {
+		float: center;
+        text-align: center;
+    }
+	
 }
+ 
+
+/* Medium Devices (Landscape Tablets & Medium Desktops) */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, .7);
+        
+    }
+   
+    .nav-wrapper {
+        padding: 0;
+    }
+	
+	.contact_info ul h2 li {
+		
+		text-align: center;
+	}
+	
+	.contact_info ul li,
+    .contact_info ul a,
+    .contact_info ul i {
+	    text-align: center;
+}
+
+
+/* Large Devices (Desktops & Laptops) */
+
+@media (min-width: 1200px) {
+    /* OK */
+}
+
+
+ 
+
