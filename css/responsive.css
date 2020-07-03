@@ -39,6 +39,9 @@
 		text-align: center;
 		
 	}
+	.contact {
+		float: center;
+	}
 	
 	.contact_info ul h2 li {
 		font-size: 22px;
@@ -46,9 +49,9 @@
 	}
 	
 	.contact_info ul li,
-    .contact_info ul a,
-    .contact_info ul i {
-		font-size: 16px;
+         .contact_info ul a,
+         .contact_info ul i {
+	   font-size: 16px;
 	    text-align: center;
    }
 	   
@@ -101,15 +104,19 @@
 	
 	}
 	
+	.contact {
+		float: center;
+	}
+	
     .contact_info ul h2 li {
 		
 		text-align: center;
 	}
 	
 	.contact_info ul li,
-    .contact_info ul a,
-    .contact_info ul i {
-	    
+         .contact_info ul a,
+          .contact_info ul i {
+	    	font-size: 16px;
 		text-align: center;
    }
 
@@ -192,6 +199,10 @@
         padding: 0;
     }
 	
+	.contact {
+		float: center;
+	}
+	
 	.contact_info ul h2 li {
 		
 		text-align: center;
@@ -200,6 +211,7 @@
 	.contact_info ul li,
     .contact_info ul a,
     .contact_info ul i {
+	    
 	    text-align: center;
 }
 
