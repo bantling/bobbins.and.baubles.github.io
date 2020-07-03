@@ -20,8 +20,8 @@ $(document).ready(function() {
 $(".navbar a").click(function(){
 	$("body,html").animate({
 		scrollTop:$("#" + $(this).data('value')).offset().top
-	},1000)
-})
+	},1000);
+});
 
 // Close mobile menu on click
 
