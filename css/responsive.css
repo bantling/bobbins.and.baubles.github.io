@@ -1,5 +1,9 @@
- /* Extra Small Devices (Portrait Phones & Smaller devices) */
-
+﻿ /* Extra Small Devices (Portrait Phones & Smaller devices) */
+@media only screen and (max-width: 320px){
+	.navbar-nav li a{
+		margin-right: 2em;
+	}
+}
 @media only screen and (max-width: 480px) {
     
  /* Mobile menu */
@@ -42,16 +46,15 @@
 	.contact {
 		float: center;
 	}
-	
 	.contact_info ul h2 li {
 		font-size: 22px;
 		text-align: center;
 	}
 	
 	.contact_info ul li,
-         .contact_info ul a,
-         .contact_info ul i {
-	   font-size: 16px;
+    .contact_info ul a,
+    .contact_info ul i {
+		font-size: 16px;
 	    text-align: center;
    }
 	   
@@ -76,18 +79,23 @@
         padding: 0;
     }
 	 .navbar-nav li a{
+		 
 		
         border-bottom: 1px solid #fff;
     }
 	
 /* Home */
-    #home-heading h2 {
+
+	.about {
+		float: center;
+	}
+    .home-heading h2 {
 		
 		font-size: 35px;
 		text-align: center;
     }
 	
-	#home-heading p {
+	.home-heading p {
 	
 	
 		text-align: center;
@@ -104,19 +112,15 @@
 	
 	}
 	
-	.contact {
-		float: center;
-	}
-	
     .contact_info ul h2 li {
 		
 		text-align: center;
 	}
 	
 	.contact_info ul li,
-         .contact_info ul a,
-          .contact_info ul i {
-	    	font-size: 16px;
+    .contact_info ul a,
+    .contact_info ul i {
+	    
 		text-align: center;
    }
 
@@ -153,6 +157,11 @@
 	}	
 
 /* About */
+
+	.about {
+		float: center;
+		
+	}
 	.header_text h2 {
 		font-size: 35px;
 		text-align: center;
@@ -199,10 +208,6 @@
         padding: 0;
     }
 	
-	.contact {
-		float: center;
-	}
-	
 	.contact_info ul h2 li {
 		
 		text-align: center;
@@ -211,7 +216,6 @@
 	.contact_info ul li,
     .contact_info ul a,
     .contact_info ul i {
-	    
 	    text-align: center;
 }
 
