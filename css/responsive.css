@@ -22,13 +22,13 @@
     }
 	
 /* Home */
-    .home-heading h2 {
+    #home-heading h2 {
 
         font-size: 35px;
 		text-align: center;
     }
 	
-	.home-heading p {
+	#home-heading p {
 	
 		text-align: center;
 	}
@@ -86,19 +86,21 @@
 	
 /* Home */
 
-	.about {
-		float: center;
-	}
-    .home-heading h2 {
+	
+    #home-heading h2 {
 		
 		font-size: 35px;
 		text-align: center;
     }
 	
-	.home-heading p {
+	#home-heading p {
 	
 	
 		text-align: center;
+	}
+	
+	.about {
+		float: center;
 	}
 	
 	.header_text h2 {
@@ -145,13 +147,13 @@
     }
 	
 /* Home */
-    .home-heading h2 {
+    #home-heading h2 {
 		font-size: 35px;
 		text-align: center;
 		
     }
 	
-	.home-heading p {
+	#home-heading p {
 		
 		text-align: center;
 	}	
