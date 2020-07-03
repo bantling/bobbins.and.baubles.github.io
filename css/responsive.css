@@ -22,13 +22,13 @@
     }
 	
 /* Home */
-    #home-heading h2 {
+    .home-heading h2 {
 
         font-size: 35px;
 		text-align: center;
     }
 	
-	#home-heading p {
+	.home-heading p {
 	
 		text-align: center;
 	}
@@ -145,13 +145,13 @@
     }
 	
 /* Home */
-    #home-heading h2 {
+    .home-heading h2 {
 		font-size: 35px;
 		text-align: center;
 		
     }
 	
-	#home-heading p {
+	.home-heading p {
 		
 		text-align: center;
 	}	
